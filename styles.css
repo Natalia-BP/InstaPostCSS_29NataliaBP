@@ -1,0 +1,18 @@
+/* General */
+
+ul {
+    list-style-type: none;
+}
+
+.container-main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Cards */
+
