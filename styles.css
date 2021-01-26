@@ -5,6 +5,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 p {
@@ -34,16 +35,41 @@ p {
     box-sizing: border-box;
 }
 
+.prof-pic img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.username {
+    margin-left: 0.9rem;
+}
+
 i {
     font-size: 1.4rem;
+    margin-right: 0.6rem;
+}
+
+i:hover {
+    color: rgb(54, 54, 54);
+}
+
+.fa-bookmark, .fa-ellipsis-v {
+    margin-right: 0;
 }
 
 .card-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
     overflow: hidden;
 }
 
@@ -55,23 +81,23 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-top: 0.7rem;
 }
 
-.interactions ul li {
+.interactions {
     float: left;
-    margin: 0.3rem;
+    overflow: auto;
 }
 
 .card-likes {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
 }
 
 .card-footer {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
     padding-bottom: 0.5rem;
-
 }
